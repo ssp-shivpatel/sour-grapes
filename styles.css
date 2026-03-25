@@ -19,7 +19,7 @@ header {
     background-color: white;
     max-width: 80%;
     margin: auto;
-    max-height: 800px;
+    max-height: 1300px;
     border-radius: 10px;
 }
 
@@ -41,12 +41,17 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#explore-frame {
+.frame {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.info-column{
+    padding: 0px 20px;
+    text-align: center;
 }
 
