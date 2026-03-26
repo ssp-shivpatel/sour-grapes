@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Sour Grapes Park</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Sour Grapes Park" width="320px" height="180px">
+    </header>
+    <main>
+        <nav>
+            <a href="index.html"><button class="nav-button">Home</button></a>
+            <a href="events.html"><button class="nav-button">Events</button></a>
+            <a href="camera_feed.html"><button class="nav-button">Camera Feed</button></a>
+            <a href="contact.html"><button class="nav-button">Contact</button></a>
+        </nav>
+
+        <div id="form-desc">
+            <h1>Send us a message!</h1>
+            <p>Do you have an idea for an event? A recommendation for new equipment? A safety issue to report?</p>
+            <p>Fill out your information below and we'll be in touch with you shortly!</p>
+        </div>
+
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <label for="message">Message (ex. Event Inquiry, Safety Complaint, etc.):</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter message here..."></textarea>
+            <br>
+            <input class="nav-button" type="submit" value="Submit">
+        </form>
+    </main>
+
+</body>
+
+</html>
