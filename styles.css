@@ -89,5 +89,8 @@ iframe{
     text-align: center;
 }
 
+.event-img {
+    max-width: 50%;
+}
 
 
