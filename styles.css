@@ -17,18 +17,19 @@ header {
 
 #main-frame {
     background-color: white;
-    width: 1000px;
+    width: 80vw;
     margin: auto;
-    max-height: 1300px;
+    max-height: 100%;
     border-radius: 10px;
 }
 
 
 nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     height: 50px;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 .nav-button {
@@ -44,8 +45,9 @@ nav {
 .frame {
     padding-top: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -54,20 +56,38 @@ nav {
 .info-column{
     padding: 0px 20px;
     text-align: center;
+    max-width: 300px;
 }
 
 .info-column img{
-    max-width: 360px;
-    max-height: 202.5px;
+    width: 100%;
+    aspect-ratio: auto;
 }
 
 .desc-box {
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 50%;
+}
+
+
+#stream {
+    padding: 40px 0;
+    text-align: center;
 }
 
 iframe{
-    max-width: 560px;
-    max-height: 315px;
+    max-width: 80%;
+    aspect-ratio: 16/9;
 }
+
+#cam-button {
+    width: 50%;
+    height: 100%;
+}
+
+.button-box{
+    width: 50%;
+    text-align: center;
+}
+
+
 
